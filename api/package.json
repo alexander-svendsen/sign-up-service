@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.1.6",
+    "koa": "^2.11.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-router": "^7.4.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.4"
+  }
+}
