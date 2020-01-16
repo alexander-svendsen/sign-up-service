@@ -14,6 +14,7 @@ const router = new Router();
 router.get('/*', async (ctx) => {
     ctx.body = 'Hello World!';
 });
+
 app.use(router.routes());
 
 app.listen(3001);
