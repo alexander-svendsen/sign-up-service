@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { ThemeProvider, CSSReset, ColorModeProvider } from "@chakra-ui/core";
 import Header from "./Header";
+import Content from "./Content";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
           <ColorModeProvider>
               <CSSReset />
               <Header/>
+              <Content/>
           </ColorModeProvider>
       </ThemeProvider>
   );
